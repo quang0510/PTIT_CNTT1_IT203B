@@ -3,12 +3,15 @@ package Session_04.KiemTra;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Product {
-    private int id ;
+    private int id;
     private String name;
-    private double price ;
+    private double price;
     private int quantity;
     private String category;
+
+    public static List<Product> productList = new ArrayList<>();
 
     public Product(int id, String name, double price, int quantity, String category) {
         this.id = id;
@@ -17,7 +20,6 @@ public class Product {
         this.quantity = quantity;
         this.category = category;
     }
-    List<Product> list = new ArrayList<>();
 
     public int getId() {
         return id;
@@ -58,4 +60,5 @@ public class Product {
     public void setCategory(String category) {
         this.category = category;
     }
-}
+
+
