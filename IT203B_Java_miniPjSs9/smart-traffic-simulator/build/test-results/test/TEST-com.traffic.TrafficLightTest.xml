@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.traffic.TrafficLightTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-17T08:43:27.271Z" hostname="MinhNN-MacBook-Pro.local" time="6.016">
+  <properties/>
+  <testcase name="testHandleTransitions()" classname="com.traffic.TrafficLightTest" time="6.015"/>
+  <testcase name="testStateTransition()" classname="com.traffic.TrafficLightTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
